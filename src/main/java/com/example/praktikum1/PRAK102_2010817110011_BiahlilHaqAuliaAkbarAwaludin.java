@@ -1,5 +1,4 @@
 package com.example.praktikum1;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class PRAK102_2010817110011_BiahlilHaqAuliaAkbarAwaludin {
