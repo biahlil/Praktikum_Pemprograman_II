@@ -12,6 +12,15 @@ public class Komik extends Buku{
         this.sinopsis = s;
     }
 
+    public int division(int a, int b){
+        int result = a/b;
+        return result;
+    }
+    public double division (float a, float b){
+        double result = a/b;
+        return result;
+    }
+
     public String getKomikDetail(String f) {
         if (f == "judul"){
             return this.judul;
@@ -23,12 +32,12 @@ public class Komik extends Buku{
             return this.penulis;
         }
         else if (f == "tahun") {
-            Integer confTh = new Integer(this.tahun);
-            return confTh.toString(this.tahun);
+            Integer confTh = this.tahun;
+            return Integer.toString(this.tahun);
         }
         else if (f == "volume") {
-            Integer conf = new Integer(this.volume);
-            return conf.toString(this.volume);
+            Integer conf = this.volume;
+            return Integer.toString(this.volume);
         }
         else if (f == "sinopsis") {
             return this.sinopsis;

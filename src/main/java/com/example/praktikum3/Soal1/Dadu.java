@@ -3,7 +3,7 @@ package com.example.praktikum3.Soal1;
 import java.util.Random;
 
 public class Dadu {
-    int upperbound = 6;
+    public int upperbound = 6;
     public Dadu() {
     }
 
@@ -14,3 +14,5 @@ public class Dadu {
         return nilai;
     }
 }
+
+

@@ -23,8 +23,8 @@ public class Novel extends Buku {
             return this.penulis;
         }
         else if (f == "tahun") {
-            Integer conf = new Integer(this.tahun);
-            return conf.toString(this.tahun);
+            Integer conf = this.tahun;
+            return Integer.toString(this.tahun);
         }
         else if (f == "genre") {
             return this.genre;
